@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">RestoOrder</string>
+    <string name="app_status">Start Development Android Test</string>
+    <string name="text_btn">LET\'S START</string>
+    <string name="resto">Restaurant</string>
+    <string name="zero_dollar">$0.00</string>
+    <string name="go">Continue</string>
+    <string name="text_order">Your Order</string>
+    <string name="for_delivery">FOR DELIVERY</string>
+    <string name="edite">EDITE</string>
+    <string name="totale">Totale</string>
+    <string name="dollar">$</string>
+    <!-- BOTTOM NAVIGATION VIEW -->
+    <string name="bottom_navigation_menu_continue">Continue</string>
+    <string name="bottom_navigation_menu_cancel">Cancel</string>
+    <string name="cancel">Cancel</string>
+    <string name="terminer">Continue</string>
+    <string name="x1">x1</string>
+    <string name="congratulation_status">congratulation you have passed the test send us your code</string>
+</resources>

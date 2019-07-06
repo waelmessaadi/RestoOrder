@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:src="@drawable/logo"
+        android:id="@+id/img_resto"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#fff" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/nom_resto"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:textSize="20sp"
+                android:textColor="#000" />
+
+            <ImageView
+                android:id="@+id/details_btn"
+                android:layout_marginTop="20dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/rightarrow"
+                android:layout_alignParentRight="true" />
+
+            <ImageView
+                android:src="@drawable/cutlery"
+                android:layout_marginStart="10dp"
+                android:layout_below="@+id/nom_resto"
+                android:layout_width="14dp"
+                android:layout_height="14dp" />
+
+            <TextView
+                android:id="@+id/type_food"
+                android:layout_marginStart="29dp"
+                android:layout_below="@+id/nom_resto"
+                android:layout_width="match_parent"
+                android:layout_height="14dp"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:src="@drawable/location"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/type_food"
+                android:layout_width="14dp"
+                android:layout_height="14dp" />
+
+            <TextView
+                android:id="@+id/localisation_resto"
+                android:layout_marginStart="29dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/type_food"
+                android:layout_width="match_parent"
+                android:layout_height="14dp"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/min_order"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/localisation_resto"
+                android:layout_width="match_parent"
+                android:layout_height="14dp"
+                android:textSize="13sp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
